@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/scripts.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <span id="camposHeader"><a style="text-decoration: none; color: white;" href="">Home</a></span>
+        <span id="camposHeader"><a style="text-decoration: none; color: white;" href="">Meu GitHub</a></span>
+        <span id="camposHeader"><a style="text-decoration: none; color: white;" href="">Linkedin</a></span>
+    </header>
+
+    <h2 style="justify-self: center;">Conversor de Moedas</h2>
+
+    <section>
+        <form action="">
+            <input type="number" id="valor" placeholder="Valor">
+            de           
+            <select id="caixaMoedasEsquerda">
+                <option value="BRL">BRL - Real Brasileiro</option>
+            </select required>
+            para
+            <select id="caixaMoedasDireita">
+                <option value="USD">USD - Dólar Americano</option>
+            </select required>
+
+            <input type="submit" onclick="fetchData()">
+        </form>
+
+        <div id="dados">
+            <p id="taxaDeConversao">A</p>
+            <p id="valorParaConverter">A</p>
+        </div>
+    </section>
+
+    <footer>
+        Oliveira Riquelme
+    </footer>
+
+</body>
+
+</html>

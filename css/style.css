@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'karla', sans-serif;
+}
+
+body {}
+
+header {
+    background-color: rgb(70, 105, 170);
+    height: 60px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+#camposHeader {
+    text-decoration: none;
+}
+
+section {
+    width: 800px;
+    height: 400px;
+    background-color: rgb(101, 194, 218);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+form{
+    padding-left: 90px;
+    padding-top: 35px;
+}
+
+#valor{
+    width: 50px;
+    height: 30px;
+}
+
+#dados{
+    display: none;
+    flex-direction: column;
+    color: black;
+    font-size: 20px;
+
+}
+
+select{
+    height: 30px;
+}
