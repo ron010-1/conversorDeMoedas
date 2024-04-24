@@ -39,6 +39,9 @@ No meu código há um exemplo na prática, assim você pode acompanhar melhor.
 Caso queira, insira o valor e selecione a moeda de origem e após selecione a moeda que deseje converter.
 Clique em Converter e aparecerá os valores abaixo das caixas de seleção.
 
+## MVP do Projeto
+<img src="/configs/imagem/imagem.png" alt="Texto Alternativo">
+
 ## Desenvolvedor
 
 Riquelme Oliveira, 24/04/2024.
